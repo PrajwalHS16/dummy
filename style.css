@@ -119,7 +119,7 @@ h4{
     font-size: 1.5rem; 
     font-weight: 600;
     line-height: 2.25rem;
-    color:var(--text-black);
+    color:var(--text-white);
     font-family: var(--secondary-font);
 }
 h5{
@@ -222,27 +222,12 @@ p{
     max-width: 80%;
     color:var(--text-white);
 }
-
-/* .banner_wrapper .top-div{
-  width: 450px;
-  height: 250px;
- 
-}
-.banner_wrapper .top-img{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-} */
-
-/* .banner_wrapper .top-right-sec{
+ .banner_wrapper .top-right-sec{
     position:relative;
-    background-image:url('../images/top-banner-img/top-right-bg.png');
-    background-repeat: no-repeat;
-    background-position: bottom;
-    background-size: contain;
     display: flex;
     align-items: flex-end;
     justify-content:center;
+   
 }
  .banner_wrapper .animate-img{
     position:absolute;
@@ -251,39 +236,10 @@ p{
     -webkit-transform:translateX(-50%);
     transform:translateX(-50%);
     z-index:22;
-} */
-
-/* .banner_wrapper .animate-img .aimg1{
-    left:-5.6875rem;
-    position:absolute;
-    -webkit-animation-name:movebounce;
-    animation-name:movebounce;
-    -webkit-animation-delay: 100ms;
-    animation-delay: 100ms;
-    -webkit-animation-iteration-count: infinite;
-    animation-iteration-count: infinite;
-    -webkit-animation-timing-function: ease-in-out;
-    animation-timing-function: ease-in-out;
-    -webkit-animation-duration: 2s;
-    animation-duration: 2s;
-    -webkit-animation-direction: alternate;
-    animation-direction: alternate;
+    
 } 
-.banner_wrapper .animate-img .aimg2{
-    margin-left:5.5rem; 
-    -webkit-animation-name:movebounce;
-    animation-name:movebounce;
-    -webkit-animation-delay: 200ms;
-    animation-delay: 200ms;
-    -webkit-animation-iteration-count: infinite;
-    animation-iteration-count: infinite;
-    -webkit-animation-timing-function: ease-in-out;
-    animation-timing-function: ease-in-out;
-    -webkit-animation-duration: 2.5s;
-    animation-duration: 2.5s;
-    -webkit-animation-direction: alternate;
-    animation-direction: alternate;
-}  */
+
+
 
 .home .card:hover{
     -webkit-transform:translateY(-0.625rem);
@@ -293,82 +249,56 @@ p{
     text-align: center;
     margin: 0 auto 2.5rem;
 }
-/* 4 About */
-/* .about_wrapper h2{
-    color:var(--text-black);
-}
-.about_wrapper .card{
-    width:80%;
-    flex-direction: row;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-.about_wrapper .about-clinic{
-    flex:0 0 auto;
-    width:50%;
-}
-.about_wrapper .about-clinic:nth-child(1),
-.about_wrapper .about-clinic:nth-child(2){
-    margin-bottom:2.8125rem;
-}
-.about_wrapper .about-clinic:nth-child(2),
-.about_wrapper .about-clinic:nth-child(4){
-    padding-left:3.75rem;
-}
-.about_wrapper .line-1,
-.about_wrapper .line-2{
-    content:'';
-    position:absolute;
-    left:50%;
-    top:50%;
-    -webkit-transform:translate(-50%,-50%);
-    transform:translate(-50%,-50%);
-    width:.0313rem;
-    height:100%;
-    background:var(--bg-dark);
-}
-.about_wrapper .line-2{
-    width:100%; 
-    height:.0625rem;
-}
-.about_wrapper .about-animate{
-    position:absolute;
-    left:-2.5rem;
-    bottom:0;
-    -webkit-animation:movebounce 3s linear infinite;
-    animation:movebounce 3s linear infinite;
-} */
-#appointment {
+
+#Appointment {
     padding-top: 100px;
   }
-
-  #appointment label {
-    color: #393939;
-    font-weight: 500;
+  #Appointment .container{
+    margin-top: 0px;
+    margin-bottom: 50px;
+    padding: 25px;
+    border: 3px solid gray;
+    border-radius: 10px;
   }
 
-  #appointment .form-control {
+  #Appointment label {
+    color: #393939;
+    font-weight: 500;
+    font-size: 19px;
+  }
+
+  #Appointment .form-control {
     background: #f9f9f9;
     border: none;
-    border-radius: 3px;
+    border-radius: 5px;
     box-shadow: none;
-    font-size: 14px;
+    font-size: 19px;
     font-weight: normal;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
+    margin-top: 10px;
     transition: all ease-in-out 0.4s;
   }
 
-  #appointment input,
+  #Appointment input,
   #appointment select {
     height: 45px;
   }
+  
 
-  #appointment button#cf-submit {
+  #Appointment button{
+    padding: 10px;
+    margin-bottom: 30px;
+    border-radius:5px;
+    font-size: 19px;
+    
+    
+  }
+  /* #appointment button#cf-submit {
     background: #a5c422;
     color: #ffffff;
     font-weight: 600;
     height: 55px;
-  }
+  } */
 
   #appointment button#cf-submit:hover {
     background: #393939;
